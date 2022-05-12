@@ -37,5 +37,5 @@ jobs:
     - name: test (installed)
       run: |
         licensecheck-helper --help
-        tar -tvf dist/licensecheck_helper-*.tar.gz | grep LICENSE
-        tar -tvf dist/licensecheck_helper-*.tar.gz | grep README.md
+        tar -tvf dist/licensecheck-helper-*.tar.gz | grep LICENSE
+        tar -tvf dist/licensecheck-helper-*.tar.gz | grep README.md

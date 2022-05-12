@@ -1,0 +1,1 @@
+license-expression>=21.0.0, <30.0.0

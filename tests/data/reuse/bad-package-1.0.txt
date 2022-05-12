@@ -1,0 +1,866 @@
+reuse.project - WARNING - could not find supported VCS
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: source
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-6fe97d0e-49bc-4c0b-b4e4-90cfd303bc81
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-0.14.0
+Created: 2022-05-06T11:12:51Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-517437bca88212cf41318cf5aefedf80
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-61b22be942922b0ea7ca04414b855640
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-99da206abb3a9c6b52f86fe9b8d2576a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a83510617af233bc53df387dae2da18b
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-69917d6b9f4806f6ac87f6b10ac5a6c7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-15a2d9557631a8732150d7cc37d886a4
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4739ccb4a0da3dcb945f57e0935d907c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0ada85f621d4b1a020e29691c7dd343f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c823bfcc0fc73800c018bfc3c0ea1321
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-72e98f0abdeded0193139c21da4dec05
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-26eeeb15461543aa6b3ff1110776ef0d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0066d142f9648df10b6c3003cd34f1d4
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-339d5384a69a9ca4d78870bbe72b1ab3
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e7278d4f851f00fc6baa0733071f7a00
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-283ddc735dfa545129ea64fb1f7ab67a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e2d7959184e4bc45aeaf273d2eb3a4d2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-577a8c1c46d85129d209a679bf7d56c9
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b7a9fea25d6d369b7e436bf300a23750
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-28945f7722fb96d697f810a8cc6f25bb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-81718cb09b4c8afb15f94b5611c2f373
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7c46a99c3e240d325e28b6f5e5e2e55c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-806bc63f9cef26bc6b41d19c102ead19
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-29348480e3f30b990549d4a1e68b1e6e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fb0994ecbc1513212b606f05c03e4adf
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b070c9442cf3eae57818bcd72b52aeb4
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d0e404792b6187c5669727ab67d4bf2a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c4b7ab204a894b79b30d10ebed50bae0
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-67e973a420bce14ea2b983d05f4714e1
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-56f875c6306c3687c5f9112f3ea11e2f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f22502311d7a8a4b93155ec0f0fae0e1
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a3ce6ae8eb4597fe0103b47b5a602260
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-6f5ffd0f2b35b2c344d3275ae9b1058e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-657640ab376793ecee43a3ba27dab6c6
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-65561ddeda23e544e70f16bdc948f7bb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a0f5a8fb7cc0c4485fbb5616d4b666dd
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-256a24cb9c4f481f16e1c64856a31046
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-925a4272156d5e3a734246dcc40c8c3d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-c14303d7212877752b8562ca23a5d27a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b3badd1c447a081e8d9bf09f9ef815c6
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-47426e6cdc9e59853e7abe8edb00bb4f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-929ec1d7eed945de65bdd02d8cf6acd8
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0184c72fcf784972b12165d8c11488bd
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f7a7d8670f6bde2c6594b46476264742
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-735955e3fd6c9fac2afefcef76193159
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a9856ceb340e8eb1ab87c242b2236682
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-cee28a7e3243eb98f8c03312b0654783
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-287b5af3e027d496e8e5c53c56a5ddbc
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-270125579df64294ab21bb84750d1a3c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-bbed474126990ee5c70e82acbc24dc4a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1b602c2898b953f7cd957a3f02441f55
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ec9fa06e6d111e5682c536b44cde6230
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-eb4899b8fd97d61a019b2af88a4c2085
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b987786c43df03716870041cf27cbc14
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f0a76ef7dd62e2d9705134a576a47e39
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-27d0600abba135f5376867e2b817790f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7f8dd77a9ff2b6ccc5f9c3c5623d13e1
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ec197349d29090af93519b46a84f4f3c
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-de56e2970c8558e9ce392ba4a1a112c2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-cd01688d19c219fa1a215b23655d734d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1513f82d89c3d3167951914623da2976
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-8100f94efa7c928647ed80a1c8902610
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-77cefe6854c0d52b4c0f2abdf5fe29ff
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-2c83e0852604721bec9a025064ca20e5
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-38ab5bdaf5b949fd4b63302beab557e5
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f529bf4544d13de5340658e8d1541dd6
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-38da87403f28ac05161f427dc8e02bc2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-5986006707206229c593e4ef05087e14
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-30c175d866a8fd12316a64041bfc2af2
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-570c1f7a956dcecbf22a3cdbc1601d3e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-aacf2948e622bf2fc551ba952b586caa
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-e504497ed76d7189787daeb44dfb3878
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-81247d50e0e487a1eef053e76aabafbc
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-91f9a371a751111b9bf9881ec9a27956
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-8ec50b73eb93a3a21f675b44764d4e55
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-5cb75cb5bd73648d91fa3be24c193290
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9a3f841969629e51da370c02711d78f0
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9fe0e25cba6661fe641c36a2c57a91ff
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-aced4783a76ef6c5c16491fb2e462bfb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-d536b01e980df2d946f073e0a0c6b14a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7cb1aaa4a619ca80fc3a290c85fda895
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-20d176fe7a3e8bce969a0e274c0f66ba
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4eb76faf406fa414b526957209ba0067
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-60f247d8382324731c0a333663ae6630
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-7bdf4f62e70f3f581f15bae1f9a8c167
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b636df28a17a0f8f3cc0b44391e55642
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9f06a55836b054ffea24571f00e25a5f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-a055403c1612c1579eeeb213940f9dd8
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-ace855a6c0a8486084fd53d28923e99d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-bbbf2f94844942a94a6d9ef5e152dd3d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-2989274f0a39752fb8a9da6857acfb6f
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-424d98f34b968e390d5018da71d8f3eb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-58999270d9b4660bb9f887fb0cce1391
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b4326b1b824ea96e887e853e710f3604
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-932e5376ebeb7e2103c4e739ba850fc8
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-97a94fb88b28e9fba796b3b06f54e03d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-dc0c5d2a4fbcf2324cbc8590b2246490
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1ee32337293244aa11d1a681a8334fda
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b04e77aea5e774021c83b04bfd2b52bc
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-80dd15746cea14051d84bb784a57e9f7
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-077934cf40c237a83c3371a6e8bb4250
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9ee1d3c58bcfbc11b1e2e552c7448adb
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-05dc4a078366ab7e4ff6269940824432
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1c2d110a97ce1713bae39bb796a2a89a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9ba6b8274a7373a632ed476a59e2dca8
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-786784f43a6f1fd8e9959b1b01089fbd
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9f4b0b8f6f41d7216b6fdaea3976f3e0
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-5c6f8fd43998b61c004162817f58533a
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-cb2a712ba78fb504c6a0cc3321f9c94d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-79f2983b36a28840bc719b442d11bd5d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1bba27e4c17afa49ae8cf226d10b999d
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-9e3664f14045ee12b8aa235dfa8cddd5
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-badebc75ff0967b512aaa0744c33347e
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f6873dcd243c0486eeb10a88983b88bf
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-0fb239bd0a72be464f81fe6cb2ed9ea5
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-fc6d73a71990a5bfd6208ae504db5c88
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f87c3ddb66218613f2dd45b219c6c7ed
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-b25e950d26358d5fde67cf4134e43480
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f281b837320dd0a3a5420b90c4a84f72
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-4ed18259122941fc4bc45421496189d6
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-f74e633171454db156258d56450d8b71
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-de5c62032c9c397b153488ccd9f88ab8
+Relationship: SPDXRef-DOCUMENT describes SPDXRef-1edf0c52a2d838252878e697a1fd03a8
+
+FileName: ./K01speech-dispatcher
+SPDXID: SPDXRef-517437bca88212cf41318cf5aefedf80
+FileChecksum: SHA1: 22128b779de0b9752790ae584c8e0a2fb237e00d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./curl-7.30.0.ermine/ERMINE/README
+SPDXID: SPDXRef-61b22be942922b0ea7ca04414b855640
+FileChecksum: SHA1: ad22d6343cf348c2839f982c7ac081e2c4057b6d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./curl-7.30.0.ermine/ERMINE/README.trio
+SPDXID: SPDXRef-99da206abb3a9c6b52f86fe9b8d2576a
+FileChecksum: SHA1: dc772c1c8cc862a98f4c3cb947700128636073e9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (C) 1998-2001 by Bjorn Reese and Daniel Stenberg.</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/div.c
+SPDXID: SPDXRef-a83510617af233bc53df387dae2da18b
+FileChecksum: SHA1: 6caa3017b5d2a2bebe408b3a16bdf7d331d0d43b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1990, 1993</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/index.c
+SPDXID: SPDXRef-69917d6b9f4806f6ac87f6b10ac5a6c7
+FileChecksum: SHA1: ab29bb9532026691e0561c3893861d5e23b66159
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1990, 1993</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/libgcc2.c
+SPDXID: SPDXRef-15a2d9557631a8732150d7cc37d886a4
+FileChecksum: SHA1: 6dcd941577daec9e8e2a73fd9c16567b2e97b66f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (C) 1989, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/rindex.c
+SPDXID: SPDXRef-4739ccb4a0da3dcb945f57e0935d907c
+FileChecksum: SHA1: a3d2b9c49a5bbae0ae068b926a4a011a9823909f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1988, 1993</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/strcmp.c
+SPDXID: SPDXRef-0ada85f621d4b1a020e29691c7dd343f
+FileChecksum: SHA1: 012512f1fd40ec7e3ba4c94891f5afd91b307e96
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1990, 1993</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/strtol.c
+SPDXID: SPDXRef-c823bfcc0fc73800c018bfc3c0ea1321
+FileChecksum: SHA1: cf6484a2d8c9122924dc867349293fdbbad9598a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1990, 1993</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/strtoul.c
+SPDXID: SPDXRef-72e98f0abdeded0193139c21da4dec05
+FileChecksum: SHA1: 776cd5c22ce4cb4bba033bddb95cfc1f777cf790
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1990, 1993</text>
+
+FileName: ./curl-7.30.0.ermine/ERMINE/table.c
+SPDXID: SPDXRef-26eeeb15461543aa6b3ff1110776ef0d
+FileChecksum: SHA1: f2fe43773599ac95cb4a68cc181d0a5b4e7c1a29
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1993</text>
+
+FileName: ./curl-7.30.0.ermine/Licenses/e2fsprogs-1.35-11.2/NOTES
+SPDXID: SPDXRef-0066d142f9648df10b6c3003cd34f1d4
+FileChecksum: SHA1: efbb101663bd36a34e6722bd3dd8009907f9397c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./curl-7.30.0.ermine/Licenses/krb5-libs-1.3.4-7/NOTES
+SPDXID: SPDXRef-339d5384a69a9ca4d78870bbe72b1ab3
+FileChecksum: SHA1: c65543f69382eb4f755b62acf2146b3485c35f87
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./curl-7.30.0.ermine/Licenses/nss-mdns-0.10-3/README
+SPDXID: SPDXRef-e7278d4f851f00fc6baa0733071f7a00
+FileChecksum: SHA1: 7ae5dfe871d5d1f0eff153cae7420066533514bf
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright 2004-2007 Lennart Poettering <mzaffzqaf (at) 0pointer (dot)</text>
+
+FileName: ./curl-7.30.0.ermine/Licenses/zlib-1.2.1.2-1/README
+SPDXID: SPDXRef-283ddc735dfa545129ea64fb1f7ab67a
+FileChecksum: SHA1: f42c4b84efee4da437c6c507b65dda14e659c428
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./curl-7.30.0.ermine/curl.ermine
+SPDXID: SPDXRef-e2d7959184e4bc45aeaf273d2eb3a4d2
+FileChecksum: SHA1: 39f85ba4bb958fcc44281dd8a740d1ecf427198d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./curl-7.30.0.ermine/file_list
+SPDXID: SPDXRef-577a8c1c46d85129d209a679bf7d56c9
+FileChecksum: SHA1: 982a7084e902ee43585557e8e24b46ad4d6318a4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./curl-7.30.0.ermine/pkg_list
+SPDXID: SPDXRef-b7a9fea25d6d369b7e436bf300a23750
+FileChecksum: SHA1: fe6be9313b131b6e5c88c4aef89ba408408220f5
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/CHANGES.rst
+SPDXID: SPDXRef-28945f7722fb96d697f810a8cc6f25bb
+FileChecksum: SHA1: f1701a46cc4654d41cd949baa864423903610637
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/MANIFEST.in
+SPDXID: SPDXRef-81718cb09b4c8afb15f94b5611c2f373
+FileChecksum: SHA1: 5e3be0541b79ab73a12b3ee1723ac5440669c23f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/PKG-INFO
+SPDXID: SPDXRef-7c46a99c3e240d325e28b6f5e5e2e55c
+FileChecksum: SHA1: 869f78b4348d2eedca312ee549fe0781ac434205
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/README.rst
+SPDXID: SPDXRef-806bc63f9cef26bc6b41d19c102ead19
+FileChecksum: SHA1: 7f9776b2941cf869bd15fb08b8572244446796e0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/artwork/jinjalogo.svg
+SPDXID: SPDXRef-29348480e3f30b990549d4a1e68b1e6e
+FileChecksum: SHA1: bc0c05340a33ca4450aa9dfd9d156fc3468e578b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/Makefile
+SPDXID: SPDXRef-fb0994ecbc1513212b606f05c03e4adf
+FileChecksum: SHA1: 05ec02ad53f9b71feabf2c6c19ccbc9b12981dac
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/_static/jinja-logo-sidebar.png
+SPDXID: SPDXRef-b070c9442cf3eae57818bcd72b52aeb4
+FileChecksum: SHA1: e72e9e9c5eb100a24c658c83814223a47bbc354a
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/_static/jinja-logo.png
+SPDXID: SPDXRef-d0e404792b6187c5669727ab67d4bf2a
+FileChecksum: SHA1: 53daffe073a49675f2da06f80c8af34d794384d1
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/api.rst
+SPDXID: SPDXRef-c4b7ab204a894b79b30d10ebed50bae0
+FileChecksum: SHA1: 065f8e139f7092f79f07968f3b4008acab0c95d3
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/changes.rst
+SPDXID: SPDXRef-67e973a420bce14ea2b983d05f4714e1
+FileChecksum: SHA1: 3aaf35e76944916abd5511efa7648087c901cb40
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/conf.py
+SPDXID: SPDXRef-56f875c6306c3687c5f9112f3ea11e2f
+FileChecksum: SHA1: 8a11a8637dde955d69710cb23591cb43dd33cb2f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/examples/cache_extension.py
+SPDXID: SPDXRef-f22502311d7a8a4b93155ec0f0fae0e1
+FileChecksum: SHA1: dbca73e385a7dc61ae25bf7b871e2da6c411eb08
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/examples/inline_gettext_extension.py
+SPDXID: SPDXRef-a3ce6ae8eb4597fe0103b47b5a602260
+FileChecksum: SHA1: e3fe08911c39ae2fbe58c1ae454ff134b7181028
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/extensions.rst
+SPDXID: SPDXRef-6f5ffd0f2b35b2c344d3275ae9b1058e
+FileChecksum: SHA1: d0d9995d00eaa6d521f2f21e427981f1f67eed17
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/faq.rst
+SPDXID: SPDXRef-657640ab376793ecee43a3ba27dab6c6
+FileChecksum: SHA1: 7dbaef6f8ea354d23b2fd5b50fb95cc4a21e5af6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/index.rst
+SPDXID: SPDXRef-65561ddeda23e544e70f16bdc948f7bb
+FileChecksum: SHA1: c46926baba3b172a3720c96ed435e663012a29fd
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/integration.rst
+SPDXID: SPDXRef-a0f5a8fb7cc0c4485fbb5616d4b666dd
+FileChecksum: SHA1: 2d627c7aa76364a6ff9c7bd7e5a6f2405bf4ae44
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/intro.rst
+SPDXID: SPDXRef-256a24cb9c4f481f16e1c64856a31046
+FileChecksum: SHA1: fb03322747732d39a2d309c8d7a901fc15798204
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/license.rst
+SPDXID: SPDXRef-925a4272156d5e3a734246dcc40c8c3d
+FileChecksum: SHA1: dd5be432e10ec7cc82bea56f4c1788da61aeb164
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/make.bat
+SPDXID: SPDXRef-c14303d7212877752b8562ca23a5d27a
+FileChecksum: SHA1: b106de4cbc33e27d0dd45c983b341e60e312f8a7
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/nativetypes.rst
+SPDXID: SPDXRef-b3badd1c447a081e8d9bf09f9ef815c6
+FileChecksum: SHA1: 184ecac386db8e552eae0e6d9b8621e6ce1e365c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/sandbox.rst
+SPDXID: SPDXRef-47426e6cdc9e59853e7abe8edb00bb4f
+FileChecksum: SHA1: 5daf25b5933cc6888187ec857a7d8c289bdd6029
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/switching.rst
+SPDXID: SPDXRef-929ec1d7eed945de65bdd02d8cf6acd8
+FileChecksum: SHA1: afb4ae2793520ed2987afe3341745aa4c2b679c2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/templates.rst
+SPDXID: SPDXRef-0184c72fcf784972b12165d8c11488bd
+FileChecksum: SHA1: c3f5aeede8acd95ecc170392e95211af2d2553db
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/docs/tricks.rst
+SPDXID: SPDXRef-f7a7d8670f6bde2c6594b46476264742
+FileChecksum: SHA1: 5ede64a0d4056cf4c0318505baaffc322ea60933
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/cycle.py
+SPDXID: SPDXRef-735955e3fd6c9fac2afefcef76193159
+FileChecksum: SHA1: 4a071f318e42264d6fb6a03b23784264598a533d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/debugger.py
+SPDXID: SPDXRef-a9856ceb340e8eb1ab87c242b2236682
+FileChecksum: SHA1: b764c9732848f7316198f725b3aed65faafbc0fa
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/inheritance.py
+SPDXID: SPDXRef-cee28a7e3243eb98f8c03312b0654783
+FileChecksum: SHA1: 77ac9f53aa98d1e471a922240adf0cf7bc3c8723
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/templates/broken.html
+SPDXID: SPDXRef-287b5af3e027d496e8e5c53c56a5ddbc
+FileChecksum: SHA1: ea5d3b631b9bea191b1c04d37046035ffc95fa2d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/templates/subbroken.html
+SPDXID: SPDXRef-270125579df64294ab21bb84750d1a3c
+FileChecksum: SHA1: cdbeade3e57e29710d907f3c460b69e03338ef4c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/test.py
+SPDXID: SPDXRef-bbed474126990ee5c70e82acbc24dc4a
+FileChecksum: SHA1: 38479c0e6f97bd6d607417edfaea8faeb8131b54
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/test_filter_and_linestatements.py
+SPDXID: SPDXRef-1b602c2898b953f7cd957a3f02441f55
+FileChecksum: SHA1: 8f6189129b389cb2cfa8585c105680f3a63b82df
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/test_loop_filter.py
+SPDXID: SPDXRef-ec9fa06e6d111e5682c536b44cde6230
+FileChecksum: SHA1: b0227faa6d3abee2599b61cbca0c76372322cfaf
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/examples/basic/translate.py
+SPDXID: SPDXRef-eb4899b8fd97d61a019b2af88a4c2085
+FileChecksum: SHA1: 48c3664c94b05d39b477e5693c435cbd34b6fbaa
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/requirements/dev.txt
+SPDXID: SPDXRef-b987786c43df03716870041cf27cbc14
+FileChecksum: SHA1: 16830f8c842349e5e3d8ec1acea0638e45504b0f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/requirements/docs.txt
+SPDXID: SPDXRef-f0a76ef7dd62e2d9705134a576a47e39
+FileChecksum: SHA1: adfd6100e6aafaed6de070b47705aab66b78fe38
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/requirements/tests.txt
+SPDXID: SPDXRef-27d0600abba135f5376867e2b817790f
+FileChecksum: SHA1: 556c7b0279624cb8aad1e5cac4564ac1489b88ab
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/requirements/typing.txt
+SPDXID: SPDXRef-7f8dd77a9ff2b6ccc5f9c3c5623d13e1
+FileChecksum: SHA1: 2a9f76db3d974792aa08fa24206835bf53e5a4f2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/setup.cfg
+SPDXID: SPDXRef-ec197349d29090af93519b46a84f4f3c
+FileChecksum: SHA1: 99e9588b00c94dbfc920c70af7c86a4ec0f5e193
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/setup.py
+SPDXID: SPDXRef-de56e2970c8558e9ce392ba4a1a112c2
+FileChecksum: SHA1: 867f0f40e53fe97a125ef7b92f3bc019369a62d0
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/PKG-INFO
+SPDXID: SPDXRef-cd01688d19c219fa1a215b23655d734d
+FileChecksum: SHA1: 869f78b4348d2eedca312ee549fe0781ac434205
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/SOURCES.txt
+SPDXID: SPDXRef-1513f82d89c3d3167951914623da2976
+FileChecksum: SHA1: fc254cd0010808080287ecc661105d62d6107a26
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/dependency_links.txt
+SPDXID: SPDXRef-8100f94efa7c928647ed80a1c8902610
+FileChecksum: SHA1: adc83b19e793491b1c6ea0fd8b46cd9f32e592fc
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/entry_points.txt
+SPDXID: SPDXRef-77cefe6854c0d52b4c0f2abdf5fe29ff
+FileChecksum: SHA1: aaeba3be7b056f2f9c5932c124f82e7cb71eac8b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/requires.txt
+SPDXID: SPDXRef-2c83e0852604721bec9a025064ca20e5
+FileChecksum: SHA1: 972d42a63909e153a6453d23e6f75e68b1a1f8e9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/top_level.txt
+SPDXID: SPDXRef-38ab5bdaf5b949fd4b63302beab557e5
+FileChecksum: SHA1: e28872899ce4cd3548d79e56190b681015fb40eb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/__init__.py
+SPDXID: SPDXRef-f529bf4544d13de5340658e8d1541dd6
+FileChecksum: SHA1: 8febafdb364fb0edd974035948e0c250d1086b51
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/_identifier.py
+SPDXID: SPDXRef-38da87403f28ac05161f427dc8e02bc2
+FileChecksum: SHA1: 21ce814c773cb6b955c5d71f5d0b15b133785169
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/async_utils.py
+SPDXID: SPDXRef-5986006707206229c593e4ef05087e14
+FileChecksum: SHA1: e09c95a1aed88be158e8d02f66455c4436a655cd
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/bccache.py
+SPDXID: SPDXRef-30c175d866a8fd12316a64041bfc2af2
+FileChecksum: SHA1: 54944afe40fde050253ae8a437a1d6289b2c9113
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/compiler.py
+SPDXID: SPDXRef-570c1f7a956dcecbf22a3cdbc1601d3e
+FileChecksum: SHA1: 2e3a226928767adad91e1e4ea6e9161931debcf6
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/constants.py
+SPDXID: SPDXRef-aacf2948e622bf2fc551ba952b586caa
+FileChecksum: SHA1: 64d1675afe760c009fa5b14d7a421dad72d72ed2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/debug.py
+SPDXID: SPDXRef-e504497ed76d7189787daeb44dfb3878
+FileChecksum: SHA1: 36985a8c51276f3bd7fcbac10e6c71b3b51d907d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/defaults.py
+SPDXID: SPDXRef-81247d50e0e487a1eef053e76aabafbc
+FileChecksum: SHA1: 33c803c94828b6f52c88ca279915bf3098108779
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/environment.py
+SPDXID: SPDXRef-91f9a371a751111b9bf9881ec9a27956
+FileChecksum: SHA1: 52d9241eeeddacc36524cbfecbc58c3adc122212
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/exceptions.py
+SPDXID: SPDXRef-8ec50b73eb93a3a21f675b44764d4e55
+FileChecksum: SHA1: dcc4a315066a26cc061ab89ff8b359ce58583dab
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/ext.py
+SPDXID: SPDXRef-5cb75cb5bd73648d91fa3be24c193290
+FileChecksum: SHA1: 6be4b1af298fee63e73bcf7ea6bbc9b021cc5c07
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/filters.py
+SPDXID: SPDXRef-9a3f841969629e51da370c02711d78f0
+FileChecksum: SHA1: e75970272e08fb195aa44cd5688ace9032e5e99b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/idtracking.py
+SPDXID: SPDXRef-9fe0e25cba6661fe641c36a2c57a91ff
+FileChecksum: SHA1: 5c4e1eeb7b7ff99dab105a5da45b825d16772d30
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/lexer.py
+SPDXID: SPDXRef-aced4783a76ef6c5c16491fb2e462bfb
+FileChecksum: SHA1: 3aada73e258d1437a27993e5f8abf6cc73b08abb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/loaders.py
+SPDXID: SPDXRef-d536b01e980df2d946f073e0a0c6b14a
+FileChecksum: SHA1: 3b0bff0f69633cd5bdfce7f1e6585a3c1a14f586
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/meta.py
+SPDXID: SPDXRef-7cb1aaa4a619ca80fc3a290c85fda895
+FileChecksum: SHA1: 319ef604cde49595bb5d1386ad7e704956d5d44c
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/nativetypes.py
+SPDXID: SPDXRef-20d176fe7a3e8bce969a0e274c0f66ba
+FileChecksum: SHA1: 4e75faa4b44101a4f5f092b9d2a5466ec1bcc995
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/nodes.py
+SPDXID: SPDXRef-4eb76faf406fa414b526957209ba0067
+FileChecksum: SHA1: f3e7b9518ab4893d5557aba8c5d529e59d962ad9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/optimizer.py
+SPDXID: SPDXRef-60f247d8382324731c0a333663ae6630
+FileChecksum: SHA1: f18e83c86ed2baaf1ddd3e32ffae748110c057fa
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/parser.py
+SPDXID: SPDXRef-7bdf4f62e70f3f581f15bae1f9a8c167
+FileChecksum: SHA1: 1966496cc6394d477c818a0a42d1db832a178e72
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/runtime.py
+SPDXID: SPDXRef-b636df28a17a0f8f3cc0b44391e55642
+FileChecksum: SHA1: 30e9c33ce1b2ea00c0df72b5443130b58be266b2
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/sandbox.py
+SPDXID: SPDXRef-9f06a55836b054ffea24571f00e25a5f
+FileChecksum: SHA1: 30bff692df3d1d32d72ed71e439104ddb0803002
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/tests.py
+SPDXID: SPDXRef-a055403c1612c1579eeeb213940f9dd8
+FileChecksum: SHA1: b5b0d5b3b8b04a22848d5b5b3a9b38a7feac24ec
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/utils.py
+SPDXID: SPDXRef-ace855a6c0a8486084fd53d28923e99d
+FileChecksum: SHA1: d689d1d064c348fe5f7dffe7825e01db2b1f2639
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/src/jinja2/visitor.py
+SPDXID: SPDXRef-bbbf2f94844942a94a6d9ef5e152dd3d
+FileChecksum: SHA1: 9e3224906fbad11e766f663d517aecaa05e52f9d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/conftest.py
+SPDXID: SPDXRef-2989274f0a39752fb8a9da6857acfb6f
+FileChecksum: SHA1: 8dfbf23baae71618ce74e9f7dc69a5e58d93839f
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/res/package.zip
+SPDXID: SPDXRef-424d98f34b968e390d5018da71d8f3eb
+FileChecksum: SHA1: a7807d2b3bca7e36af1c09c56fce0d3780c7ba05
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/res/templates/broken.html
+SPDXID: SPDXRef-58999270d9b4660bb9f887fb0cce1391
+FileChecksum: SHA1: 046cfb1bed9470fd2bf88ba99be9abeebf5eaef9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/res/templates/foo/test.html
+SPDXID: SPDXRef-b4326b1b824ea96e887e853e710f3604
+FileChecksum: SHA1: e752cf6ec8e21b2390400b3292ec6de08178fe25
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/res/templates/mojibake.txt
+SPDXID: SPDXRef-932e5376ebeb7e2103c4e739ba850fc8
+FileChecksum: SHA1: 6403c9efb966d9665f34990513a268eb458a5317
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/res/templates/syntaxerror.html
+SPDXID: SPDXRef-97a94fb88b28e9fba796b3b06f54e03d
+FileChecksum: SHA1: 7fb0a01870b33ab4d60f2d93691fc1859c9fadf8
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/res/templates/test.html
+SPDXID: SPDXRef-dc0c5d2a4fbcf2324cbc8590b2246490
+FileChecksum: SHA1: b7e15d674814565f6ed7e5e2cdef404a4819b5a9
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/res/templates2/foo
+SPDXID: SPDXRef-1ee32337293244aa11d1a681a8334fda
+FileChecksum: SHA1: e6cf8a8bba4257aa78781709e88432e2a31cbd94
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_api.py
+SPDXID: SPDXRef-b04e77aea5e774021c83b04bfd2b52bc
+FileChecksum: SHA1: 32d94412403145ce13974465998ee6202858de1d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_async.py
+SPDXID: SPDXRef-80dd15746cea14051d84bb784a57e9f7
+FileChecksum: SHA1: 127ce9b9a52aac939d4edd5a4e1a0e4fa796f96e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_async_filters.py
+SPDXID: SPDXRef-077934cf40c237a83c3371a6e8bb4250
+FileChecksum: SHA1: 78824b0ea016565fd9ce0436a208a3d16cfa4258
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_bytecode_cache.py
+SPDXID: SPDXRef-9ee1d3c58bcfbc11b1e2e552c7448adb
+FileChecksum: SHA1: 3e5c3b689f049eaeddb5a3faccdc06f9f01c8fb7
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_core_tags.py
+SPDXID: SPDXRef-05dc4a078366ab7e4ff6269940824432
+FileChecksum: SHA1: ec7791bb651d593a017dafadd7405e64d2ef0472
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_debug.py
+SPDXID: SPDXRef-1c2d110a97ce1713bae39bb796a2a89a
+FileChecksum: SHA1: 5f44b20bf1443936b4b22d036994b88d6d83fa84
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_ext.py
+SPDXID: SPDXRef-9ba6b8274a7373a632ed476a59e2dca8
+FileChecksum: SHA1: 33c520889b1d83c9c2a9d14781350635ef49723d
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_features.py
+SPDXID: SPDXRef-786784f43a6f1fd8e9959b1b01089fbd
+FileChecksum: SHA1: e3972528f2d31c6c38379c7fa1bc3b852da24434
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_filters.py
+SPDXID: SPDXRef-9f4b0b8f6f41d7216b6fdaea3976f3e0
+FileChecksum: SHA1: 3c5bf55815f77e8570718d4248e1cff316c11f7e
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_idtracking.py
+SPDXID: SPDXRef-5c6f8fd43998b61c004162817f58533a
+FileChecksum: SHA1: 6ce2e7bbcd9f2eb798b3ee27ce3c9ca5e9f11072
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_imports.py
+SPDXID: SPDXRef-cb2a712ba78fb504c6a0cc3321f9c94d
+FileChecksum: SHA1: 7857a36960602875dceacc98b99d7a47bddcc713
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_inheritance.py
+SPDXID: SPDXRef-79f2983b36a28840bc719b442d11bd5d
+FileChecksum: SHA1: a39abfe208cc3ce59896d9f2478ea42c224d8ffb
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_lexnparse.py
+SPDXID: SPDXRef-1bba27e4c17afa49ae8cf226d10b999d
+FileChecksum: SHA1: 9ea20e9162b3aa1dc49fc325effb98188e313491
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_loader.py
+SPDXID: SPDXRef-9e3664f14045ee12b8aa235dfa8cddd5
+FileChecksum: SHA1: 0123da0ae00ce34dbc6197d8df4faf94c9ecde00
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_nativetypes.py
+SPDXID: SPDXRef-badebc75ff0967b512aaa0744c33347e
+FileChecksum: SHA1: adc81ea40ee2b50f74a9969451ad97602d479640
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_regression.py
+SPDXID: SPDXRef-f6873dcd243c0486eeb10a88983b88bf
+FileChecksum: SHA1: 0b0eaec6ddf089c8681ce5dff393e56de7ba7733
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_runtime.py
+SPDXID: SPDXRef-0fb239bd0a72be464f81fe6cb2ed9ea5
+FileChecksum: SHA1: 456c9825d72d73d277fa897fc33dbce951d2f07b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_security.py
+SPDXID: SPDXRef-fc6d73a71990a5bfd6208ae504db5c88
+FileChecksum: SHA1: 8bee39c2fa15d8795efcb432f9bbb9960633fb75
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_tests.py
+SPDXID: SPDXRef-f87c3ddb66218613f2dd45b219c6c7ed
+FileChecksum: SHA1: 1c32730798e77a921f40ed8122974616a17193f4
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tests/test_utils.py
+SPDXID: SPDXRef-b25e950d26358d5fde67cf4134e43480
+FileChecksum: SHA1: b36140f01f8169f1b2521f74cb51547536031002
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./jinja2/Jinja2-3.0.1/tox.ini
+SPDXID: SPDXRef-f281b837320dd0a3a5420b90c4a84f72
+FileChecksum: SHA1: 456b412b8c0964133f4692e754cd3a875047ca5b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./python_builtins.py
+SPDXID: SPDXRef-4ed18259122941fc4bc45421496189d6
+FileChecksum: SHA1: a7c2d807dc40f8417c19ccb783e03c800ecd131b
+LicenseConcluded: NOASSERTION
+FileCopyrightText: NONE
+
+FileName: ./simple-hello-world.c
+SPDXID: SPDXRef-f74e633171454db156258d56450d8b71
+FileChecksum: SHA1: 986f421834f663c5accb8a85d32b2212b0600539
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) {{ year }} {{ organization </text>
+
+FileName: ./test1/test-1.sh
+SPDXID: SPDXRef-de5c62032c9c397b153488ccd9f88ab8
+FileChecksum: SHA1: deb3aea5f50be4ba1fe6f63f72e55dd13f43b023
+LicenseConcluded: NOASSERTION
+FileCopyrightText: <text>Copyright (c) 1901 Gold-Digger.com</text>
+
+FileName: ./test2/test-2.sh
+SPDXID: SPDXRef-1edf0c52a2d838252878e697a1fd03a8
+FileChecksum: SHA1: 2e33c69b05316a274c7cdb68f28b648ea6fe726b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0
+FileCopyrightText: NONE

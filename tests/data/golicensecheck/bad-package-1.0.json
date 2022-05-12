@@ -1,0 +1,270 @@
+[
+    {
+        "project": "/root/path/jinja2",
+        "matches": []
+    },
+    {
+        "project": "/root/path/test1",
+        "matches": [
+            {
+                "license": "GPL-2.0-or-later",
+                "confidence": 0.9818555,
+                "file": "LICENSE.gpl2"
+            },
+            {
+                "license": "GPL-2.0-only",
+                "confidence": 0.9815132,
+                "file": "LICENSE.gpl2"
+            },
+            {
+                "license": "MIT",
+                "confidence": 0.9325153,
+                "file": "LICENSE"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/test2",
+        "matches": [
+            {
+                "license": "GPL-3.0-or-later",
+                "confidence": 0.9847479,
+                "file": "LICENSE"
+            },
+            {
+                "license": "GPL-3.0-only",
+                "confidence": 0.9847479,
+                "file": "LICENSE"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine",
+        "matches": [
+            {
+                "license": "curl",
+                "confidence": 0.99346405,
+                "file": "Licenses/COPYING"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1",
+        "matches": [
+            {
+                "license": "BSD-3-Clause",
+                "confidence": 1,
+                "file": "LICENSE.rst"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/examples",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/requirements",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/artwork",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/src",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/tests",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/docs",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/examples/basic",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/examples/basic/templates",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/src/jinja2",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/tests/res",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/tests/res/templates2",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/tests/res/templates",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/tests/res/templates/foo",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/docs/examples",
+        "matches": []
+    },
+    {
+        "project": "/root/path/jinja2/Jinja2-3.0.1/docs/_static",
+        "matches": []
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses",
+        "matches": [
+            {
+                "license": "curl",
+                "confidence": 0.99346405,
+                "file": "COPYING"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/ERMINE",
+        "matches": []
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/glibc-2.3.3-74",
+        "matches": [
+            {
+                "license": "LGPL-2.1-or-later",
+                "confidence": 0.98514044,
+                "file": "COPYING.LIB"
+            },
+            {
+                "license": "LGPL-2.1-only",
+                "confidence": 0.98421174,
+                "file": "COPYING.LIB"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/nss_ldap-220-3",
+        "matches": [
+            {
+                "license": "LGPL-2.0-or-later",
+                "confidence": 0.98417336,
+                "file": "COPYING.nss_ldap"
+            },
+            {
+                "license": "LGPL-2.0-only",
+                "confidence": 0.98417336,
+                "file": "COPYING.nss_ldap"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/zlib-1.2.1.2-1",
+        "matches": []
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/krb5-libs-1.3.4-7",
+        "matches": []
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/openldap-2.2.13-2",
+        "matches": [
+            {
+                "license": "OLDAP-2.8",
+                "confidence": 0.99375,
+                "file": "LICENSE"
+            },
+            {
+                "license": "OLDAP-2.7",
+                "confidence": 0.9747634,
+                "file": "LICENSE"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/cyrus-sasl-2.1.19-3",
+        "matches": []
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/nss-mdns-0.10-3",
+        "matches": [
+            {
+                "license": "Frameworx-1.0",
+                "confidence": 1,
+                "file": "README"
+            },
+            {
+                "license": "BitTorrent-1.0",
+                "confidence": 1,
+                "file": "README"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/openssl-0.9.8k",
+        "matches": [
+            {
+                "license": "OpenSSL",
+                "confidence": 0.9061758,
+                "file": "LICENSE"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/nss_db-2.2-29",
+        "matches": [
+            {
+                "license": "LGPL-2.0-only",
+                "confidence": 0.98468274,
+                "file": "COPYING.LIB"
+            },
+            {
+                "license": "LGPL-2.0-or-later",
+                "confidence": 0.98468274,
+                "file": "COPYING.LIB"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/e2fsprogs-1.35-11.2",
+        "matches": []
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/libidn-0.5.6-1",
+        "matches": [
+            {
+                "license": "LGPL-2.1-or-later",
+                "confidence": 0.98514044,
+                "file": "COPYING.LIB"
+            },
+            {
+                "license": "LGPL-2.1-only",
+                "confidence": 0.98421174,
+                "file": "COPYING.LIB"
+            }
+        ]
+    },
+    {
+        "project": "/root/path/curl-7.30.0.ermine/Licenses/samba-common-3.0.8-0.pre1.3",
+        "matches": [
+            {
+                "license": "GPL-2.0-or-later",
+                "confidence": 0.9818555,
+                "file": "COPYING"
+            },
+            {
+                "license": "GPL-2.0-only",
+                "confidence": 0.98117083,
+                "file": "COPYING"
+            }
+        ]
+    }
+]

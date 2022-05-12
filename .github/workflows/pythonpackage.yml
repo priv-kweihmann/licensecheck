@@ -1,0 +1,41 @@
+name: Python package
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+    strategy:
+      max-parallel: 5
+      matrix:
+        python-version: ['3.7', '3.8', '3.9', '3.10']
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+    - name: prepare
+      run: |
+        python3 -m pip install --upgrade pip
+        pip install --upgrade setuptools 
+        pip install -r requirements.txt
+        pip install -r requirements-dev.txt
+    - name: linter
+      run: pre-commit run --all-files
+    - name: test (pytest)
+      run: pytest
+    - name: build
+      run: python3 setup.py build sdist
+    - name: install
+      run: python3 setup.py install --user
+    - name: test (installed)
+      run: |
+        licensecheck --help
+        tar -tvf dist/licensecheck-*.tar.gz | grep LICENSE
+        tar -tvf dist/licensecheck-*.tar.gz | grep README.md

@@ -3,7 +3,7 @@ import os
 import re
 
 import pytest
-from licensecheck.__main__ import main
+from licensecheck_helper.__main__ import main
 
 from . import create_sources_file
 from . import get_args

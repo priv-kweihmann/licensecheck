@@ -43,7 +43,7 @@ class ProviderReuse(Provider):
                for k, v in _map.items() if k in self._args.files and v['license']]
         for k, v in _map.items():
             if not v['license'] and k in self._args.files:
-                logging.getLogger('licensecheck.results').warning(
+                logging.getLogger('licensecheck_helper.results').warning(
                     f'[noinfo] path \'{k}\' doesn\'t provide a license info')
         return ' AND '.join(res)
 

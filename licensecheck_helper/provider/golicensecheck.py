@@ -4,7 +4,7 @@ from ..licensecheck import _sanitize_license
 from . import Provider
 
 
-class ProviderGoLicensecheck(Provider):
+class ProviderGolicensecheck(Provider):
     def __init__(self, args) -> None:
         super().__init__(args)
 

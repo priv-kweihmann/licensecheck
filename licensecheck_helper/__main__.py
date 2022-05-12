@@ -1,19 +1,19 @@
 import argparse
 import sys
 
-from .logger import setup as logger_setup
-from .licensecheck import _sanitize_license
-from .licensecheck import evaluate
-from .licensecheck import interal_comp_expression
-from .provider.golicensecheck import ProviderGoLicensecheck
-from .provider.lc import ProviderLC
-from .provider.reuse import ProviderReuse
-from .provider.scancode import ProviderScancode
+from licensecheck_helper.logger import setup as logger_setup
+from licensecheck_helper.licensecheck import _sanitize_license
+from licensecheck_helper.licensecheck import evaluate
+from licensecheck_helper.licensecheck import interal_comp_expression
+from licensecheck_helper.provider.golicensecheck import ProviderGolicensecheck
+from licensecheck_helper.provider.lc import ProviderLC
+from licensecheck_helper.provider.reuse import ProviderReuse
+from licensecheck_helper.provider.scancode import ProviderScancode
 
 
 def create_parser(args=None):
     parser = argparse.ArgumentParser(
-        description='License check', prog='licensecheck')
+        description='License check', prog='licensecheck_helper')
     parser.add_argument('--noassertdefault', default='CLOSED',
                         help='In case no assertion can be made on a file, take this license as the basis')
     parser.add_argument('--badcrholders', default='',
@@ -39,8 +39,8 @@ def create_parser(args=None):
 
 
 def main(args=None):
-    logger_setup('licensecheck.debug', stream=sys.stderr)
-    logger_setup('licensecheck.results',
+    logger_setup('licensecheck_helper.debug', stream=sys.stderr)
+    logger_setup('licensecheck_helper.results',
                  format='%(message)s', stream=sys.stdout)
 
     _args = create_parser(args)
@@ -51,7 +51,7 @@ def main(args=None):
     elif _args.resulttype == 'reuse':
         _obj = ProviderReuse(_args)
     elif _args.resulttype == 'golicensecheck':  # pragma: no cover
-        _obj = ProviderGoLicensecheck(_args)
+        _obj = ProviderGolicensecheck(_args)
     evaluate(_args, _obj)
 
 

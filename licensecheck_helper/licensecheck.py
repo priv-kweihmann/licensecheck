@@ -3,7 +3,7 @@ import re
 
 from license_expression import Licensing
 
-from licensecheck.provider import Provider
+from licensecheck_helper.provider import Provider
 
 
 def _sanitize_license(args, _lic):
@@ -73,7 +73,7 @@ def evaluate(args, obj: Provider):
         if _det is None:
             raise Exception()
     except Exception as e:
-        logging.getLogger('licensecheck.debug').warning(
+        logging.getLogger('licensecheck_helper.debug').warning(
             f'Can\'t find any license info -> {obj.version()}:{e}')
         # if no license info can be gathered assume the set one is correct
         _det = _set
@@ -87,14 +87,14 @@ def evaluate(args, obj: Provider):
     _det = clean_expression(str(_det))
     _set = clean_expression(str(_set))
 
-    logging.getLogger('licensecheck.debug').info(f'Using set licenses {_set}')
-    logging.getLogger('licensecheck.debug').info(
+    logging.getLogger('licensecheck_helper.debug').info(f'Using set licenses {_set}')
+    logging.getLogger('licensecheck_helper.debug').info(
         f'Using detected licenses {_det}')
 
     # We only check if all identified SPDX identifier are present
     # as we are unable to get all the possible combinations correctly
     if _set != _det:
-        logging.getLogger('licensecheck.results').warning(
+        logging.getLogger('licensecheck_helper.results').warning(
             f'[license] Detected license(s) {bitbake_comp_expression(" ".join(_det))}, but set is \'{args.license}\'')
 
     # Copyright holders
@@ -104,14 +104,14 @@ def evaluate(args, obj: Provider):
             if not _bad:
                 continue
             if re.match(_bad, _cr):  # pragma: no cover
-                logging.getLogger('licensecheck.results').warning(
+                logging.getLogger('licensecheck_helper.results').warning(
                     f'[copyright] Detected discouraged copyright holder \'{_cr}\'')
 
     for _cr in obj.missingcr():
-        logging.getLogger('licensecheck.results').warning(
+        logging.getLogger('licensecheck_helper.results').warning(
             f'[nocopyright] \'{_cr}\' has no copyright information set')
 
     for _file in obj.license_files():
         if _file not in args.licfiles:  # pragma: no cover
-            logging.getLogger('licensecheck.results').warning(
+            logging.getLogger('licensecheck_helper.results').warning(
                 f'[missinglicfile] \'{_file}\' holds license information, but is not listed')

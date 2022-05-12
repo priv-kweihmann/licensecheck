@@ -28,7 +28,7 @@ class ProviderScancode(Provider):
                         res.append(_sanitize_license(
                             self._args, lic['spdx_license_key']))
                     if not found:
-                        logging.getLogger('licensecheck.results').warning(
+                        logging.getLogger('licensecheck_helper.results').warning(
                             f'[noinfo] path \'{f["path"]}\' doesn\'t provide a license info')
         return ' AND '.join(res)
 

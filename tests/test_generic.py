@@ -5,7 +5,7 @@ from . import get_args
 
 
 def test_clean_expression():
-    from licensecheck.licensecheck import clean_expression
+    from licensecheck_helper.licensecheck import clean_expression
 
     for k, v in {
         'BSD-2-Clause': ['BSD-2-Clause'],
@@ -21,9 +21,9 @@ def test_clean_expression():
 
 
 def test_no_version_info(caplog):
-    from licensecheck.provider import Provider
-    from licensecheck.licensecheck import evaluate
-    from licensecheck.__main__ import create_parser
+    from licensecheck_helper.provider import Provider
+    from licensecheck_helper.licensecheck import evaluate
+    from licensecheck_helper.__main__ import create_parser
 
     _args = create_parser(get_args('BSD-2-Clause', 'lc', ['test2/test-2.sh']))
 

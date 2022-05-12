@@ -36,6 +36,6 @@ jobs:
       run: python3 setup.py install --user
     - name: test (installed)
       run: |
-        licensecheck --help
-        tar -tvf dist/licensecheck-*.tar.gz | grep LICENSE
-        tar -tvf dist/licensecheck-*.tar.gz | grep README.md
+        licensecheck-helper --help
+        tar -tvf dist/licensecheck_helper-*.tar.gz | grep LICENSE
+        tar -tvf dist/licensecheck_helper-*.tar.gz | grep README.md

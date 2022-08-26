@@ -2,23 +2,23 @@
     "headers": [
         {
             "tool_name": "scancode-toolkit",
-            "tool_version": "31.0.1",
+            "tool_version": "31.0.2",
             "options": {
                 "input": [
-                    "/mnt/ssd/build-sca-master/tmp/work/cortexa57-scatest-linux/bad-package/1.0-r0/source"
+                    "path"
                 ],
                 "--copyright": true,
-                "--json": "/mnt/ssd/build-sca-master/tmp/work/cortexa57-scatest-linux/bad-package/1.0-r0/temp/sca_raw_scancode_raw.json",
+                "--json": "report.json",
                 "--license": true,
                 "--processes": "32",
                 "--quiet": true,
                 "--strip-root": true
             },
             "notice": "Generated with ScanCode and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied. No content created from\nScanCode should be considered or used as legal advice. Consult an Attorney\nfor any legal advice.\nScanCode is a free software code scanning tool from nexB Inc. and others.\nVisit https://github.com/nexB/scancode-toolkit/ for support and download.",
-            "start_timestamp": "2022-08-23T065858.503565",
-            "end_timestamp": "2022-08-23T070038.275406",
+            "start_timestamp": "2022-08-26T050427.779189",
+            "end_timestamp": "2022-08-26T050718.651156",
             "output_format_version": "2.0.0",
-            "duration": 99.77185201644897,
+            "duration": 170.8719847202301,
             "message": null,
             "errors": [],
             "warnings": [],
@@ -37,7 +37,7 @@
     ],
     "files": [
         {
-            "path": "source/K01speech-dispatcher",
+            "path": "K01speech-dispatcher",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -48,7 +48,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/python_builtins.py",
+            "path": "python_builtins.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -59,7 +59,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/simple-hello-world.c",
+            "path": "simple-hello-world.c",
             "type": "file",
             "licenses": [
                 {
@@ -111,7 +111,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine",
+            "path": "curl-7.30.0.ermine",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -122,7 +122,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/curl.ermine",
+            "path": "curl-7.30.0.ermine/curl.ermine",
             "type": "file",
             "licenses": [
                 {
@@ -206,7 +206,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/file_list",
+            "path": "curl-7.30.0.ermine/file_list",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -217,7 +217,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/pkg_list",
+            "path": "curl-7.30.0.ermine/pkg_list",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -228,7 +228,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE",
+            "path": "curl-7.30.0.ermine/ERMINE",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -239,7 +239,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/COPYING.NEWLIB",
+            "path": "curl-7.30.0.ermine/ERMINE/COPYING.NEWLIB",
             "type": "file",
             "licenses": [
                 {
@@ -1778,7 +1778,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/div.c",
+            "path": "curl-7.30.0.ermine/ERMINE/div.c",
             "type": "file",
             "licenses": [
                 {
@@ -1842,7 +1842,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/index.c",
+            "path": "curl-7.30.0.ermine/ERMINE/index.c",
             "type": "file",
             "licenses": [
                 {
@@ -1906,7 +1906,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/libgcc2.c",
+            "path": "curl-7.30.0.ermine/ERMINE/libgcc2.c",
             "type": "file",
             "licenses": [
                 {
@@ -2014,7 +2014,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/README",
+            "path": "curl-7.30.0.ermine/ERMINE/README",
             "type": "file",
             "licenses": [
                 {
@@ -2066,7 +2066,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/README.trio",
+            "path": "curl-7.30.0.ermine/ERMINE/README.trio",
             "type": "file",
             "licenses": [
                 {
@@ -2130,7 +2130,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/rindex.c",
+            "path": "curl-7.30.0.ermine/ERMINE/rindex.c",
             "type": "file",
             "licenses": [
                 {
@@ -2194,7 +2194,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/strcmp.c",
+            "path": "curl-7.30.0.ermine/ERMINE/strcmp.c",
             "type": "file",
             "licenses": [
                 {
@@ -2258,7 +2258,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/strtol.c",
+            "path": "curl-7.30.0.ermine/ERMINE/strtol.c",
             "type": "file",
             "licenses": [
                 {
@@ -2322,7 +2322,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/strtoul.c",
+            "path": "curl-7.30.0.ermine/ERMINE/strtoul.c",
             "type": "file",
             "licenses": [
                 {
@@ -2386,7 +2386,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/ERMINE/table.c",
+            "path": "curl-7.30.0.ermine/ERMINE/table.c",
             "type": "file",
             "licenses": [
                 {
@@ -2450,7 +2450,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses",
+            "path": "curl-7.30.0.ermine/Licenses",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -2461,7 +2461,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/COPYING",
+            "path": "curl-7.30.0.ermine/Licenses/COPYING",
             "type": "file",
             "licenses": [
                 {
@@ -2525,7 +2525,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/cyrus-sasl-2.1.19-3",
+            "path": "curl-7.30.0.ermine/Licenses/cyrus-sasl-2.1.19-3",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -2536,7 +2536,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/cyrus-sasl-2.1.19-3/COPYING",
+            "path": "curl-7.30.0.ermine/Licenses/cyrus-sasl-2.1.19-3/COPYING",
             "type": "file",
             "licenses": [
                 {
@@ -2606,7 +2606,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/e2fsprogs-1.35-11.2",
+            "path": "curl-7.30.0.ermine/Licenses/e2fsprogs-1.35-11.2",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -2617,7 +2617,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/e2fsprogs-1.35-11.2/NOTES",
+            "path": "curl-7.30.0.ermine/Licenses/e2fsprogs-1.35-11.2/NOTES",
             "type": "file",
             "licenses": [
                 {
@@ -2669,7 +2669,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/glibc-2.3.3-74",
+            "path": "curl-7.30.0.ermine/Licenses/glibc-2.3.3-74",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -2680,7 +2680,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/glibc-2.3.3-74/COPYING.LIB",
+            "path": "curl-7.30.0.ermine/Licenses/glibc-2.3.3-74/COPYING.LIB",
             "type": "file",
             "licenses": [
                 {
@@ -2754,7 +2754,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/krb5-libs-1.3.4-7",
+            "path": "curl-7.30.0.ermine/Licenses/krb5-libs-1.3.4-7",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -2765,7 +2765,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/krb5-libs-1.3.4-7/NOTES",
+            "path": "curl-7.30.0.ermine/Licenses/krb5-libs-1.3.4-7/NOTES",
             "type": "file",
             "licenses": [
                 {
@@ -2817,7 +2817,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/libidn-0.5.6-1",
+            "path": "curl-7.30.0.ermine/Licenses/libidn-0.5.6-1",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -2828,7 +2828,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/libidn-0.5.6-1/COPYING.LIB",
+            "path": "curl-7.30.0.ermine/Licenses/libidn-0.5.6-1/COPYING.LIB",
             "type": "file",
             "licenses": [
                 {
@@ -2902,7 +2902,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/nss-mdns-0.10-3",
+            "path": "curl-7.30.0.ermine/Licenses/nss-mdns-0.10-3",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -2913,7 +2913,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/nss-mdns-0.10-3/README",
+            "path": "curl-7.30.0.ermine/Licenses/nss-mdns-0.10-3/README",
             "type": "file",
             "licenses": [
                 {
@@ -3016,7 +3016,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/nss_db-2.2-29",
+            "path": "curl-7.30.0.ermine/Licenses/nss_db-2.2-29",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3027,7 +3027,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/nss_db-2.2-29/COPYING.LIB",
+            "path": "curl-7.30.0.ermine/Licenses/nss_db-2.2-29/COPYING.LIB",
             "type": "file",
             "licenses": [
                 {
@@ -3101,7 +3101,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/nss_ldap-220-3",
+            "path": "curl-7.30.0.ermine/Licenses/nss_ldap-220-3",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3112,7 +3112,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/nss_ldap-220-3/COPYING.nss_ldap",
+            "path": "curl-7.30.0.ermine/Licenses/nss_ldap-220-3/COPYING.nss_ldap",
             "type": "file",
             "licenses": [
                 {
@@ -3186,7 +3186,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/openldap-2.2.13-2",
+            "path": "curl-7.30.0.ermine/Licenses/openldap-2.2.13-2",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3197,7 +3197,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/openldap-2.2.13-2/LICENSE",
+            "path": "curl-7.30.0.ermine/Licenses/openldap-2.2.13-2/LICENSE",
             "type": "file",
             "licenses": [
                 {
@@ -3261,7 +3261,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/openssl-0.9.8k",
+            "path": "curl-7.30.0.ermine/Licenses/openssl-0.9.8k",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3272,7 +3272,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/openssl-0.9.8k/LICENSE",
+            "path": "curl-7.30.0.ermine/Licenses/openssl-0.9.8k/LICENSE",
             "type": "file",
             "licenses": [
                 {
@@ -3387,7 +3387,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/samba-common-3.0.8-0.pre1.3",
+            "path": "curl-7.30.0.ermine/Licenses/samba-common-3.0.8-0.pre1.3",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3398,7 +3398,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/samba-common-3.0.8-0.pre1.3/COPYING",
+            "path": "curl-7.30.0.ermine/Licenses/samba-common-3.0.8-0.pre1.3/COPYING",
             "type": "file",
             "licenses": [
                 {
@@ -3472,7 +3472,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/zlib-1.2.1.2-1",
+            "path": "curl-7.30.0.ermine/Licenses/zlib-1.2.1.2-1",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3483,7 +3483,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/curl-7.30.0.ermine/Licenses/zlib-1.2.1.2-1/README",
+            "path": "curl-7.30.0.ermine/Licenses/zlib-1.2.1.2-1/README",
             "type": "file",
             "licenses": [
                 {
@@ -3578,7 +3578,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2",
+            "path": "jinja2",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3589,7 +3589,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1",
+            "path": "jinja2/Jinja2-3.0.1",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -3600,7 +3600,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/CHANGES.rst",
+            "path": "jinja2/Jinja2-3.0.1/CHANGES.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -3611,7 +3611,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/LICENSE.rst",
+            "path": "jinja2/Jinja2-3.0.1/LICENSE.rst",
             "type": "file",
             "licenses": [
                 {
@@ -3675,7 +3675,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/MANIFEST.in",
+            "path": "jinja2/Jinja2-3.0.1/MANIFEST.in",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -3686,7 +3686,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/PKG-INFO",
+            "path": "jinja2/Jinja2-3.0.1/PKG-INFO",
             "type": "file",
             "licenses": [
                 {
@@ -3788,7 +3788,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/README.rst",
+            "path": "jinja2/Jinja2-3.0.1/README.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -3799,7 +3799,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/setup.cfg",
+            "path": "jinja2/Jinja2-3.0.1/setup.cfg",
             "type": "file",
             "licenses": [
                 {
@@ -3975,7 +3975,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/setup.py",
+            "path": "jinja2/Jinja2-3.0.1/setup.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -3986,7 +3986,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tox.ini",
+            "path": "jinja2/Jinja2-3.0.1/tox.ini",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -3997,7 +3997,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/artwork",
+            "path": "jinja2/Jinja2-3.0.1/artwork",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4008,7 +4008,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/artwork/jinjalogo.svg",
+            "path": "jinja2/Jinja2-3.0.1/artwork/jinjalogo.svg",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4019,7 +4019,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs",
+            "path": "jinja2/Jinja2-3.0.1/docs",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4030,7 +4030,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/api.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/api.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4041,7 +4041,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/changes.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/changes.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4052,7 +4052,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/conf.py",
+            "path": "jinja2/Jinja2-3.0.1/docs/conf.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4075,7 +4075,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/extensions.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/extensions.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4086,7 +4086,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/faq.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/faq.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4097,7 +4097,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/index.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/index.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4108,7 +4108,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/integration.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/integration.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4119,7 +4119,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/intro.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/intro.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4130,7 +4130,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/license.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/license.rst",
             "type": "file",
             "licenses": [
                 {
@@ -4182,7 +4182,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/make.bat",
+            "path": "jinja2/Jinja2-3.0.1/docs/make.bat",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4193,7 +4193,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/Makefile",
+            "path": "jinja2/Jinja2-3.0.1/docs/Makefile",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4204,7 +4204,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/nativetypes.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/nativetypes.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4215,7 +4215,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/sandbox.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/sandbox.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4226,7 +4226,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/switching.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/switching.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4237,7 +4237,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/templates.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/templates.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4266,7 +4266,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/tricks.rst",
+            "path": "jinja2/Jinja2-3.0.1/docs/tricks.rst",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4277,7 +4277,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/_static",
+            "path": "jinja2/Jinja2-3.0.1/docs/_static",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4288,7 +4288,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/_static/jinja-logo-sidebar.png",
+            "path": "jinja2/Jinja2-3.0.1/docs/_static/jinja-logo-sidebar.png",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4299,7 +4299,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/_static/jinja-logo.png",
+            "path": "jinja2/Jinja2-3.0.1/docs/_static/jinja-logo.png",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4310,7 +4310,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/examples",
+            "path": "jinja2/Jinja2-3.0.1/docs/examples",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4321,7 +4321,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/examples/cache_extension.py",
+            "path": "jinja2/Jinja2-3.0.1/docs/examples/cache_extension.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4332,7 +4332,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/docs/examples/inline_gettext_extension.py",
+            "path": "jinja2/Jinja2-3.0.1/docs/examples/inline_gettext_extension.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4343,7 +4343,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples",
+            "path": "jinja2/Jinja2-3.0.1/examples",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4354,7 +4354,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4365,7 +4365,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/cycle.py",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/cycle.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4376,7 +4376,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/debugger.py",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/debugger.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4387,7 +4387,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/inheritance.py",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/inheritance.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4398,7 +4398,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/test.py",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/test.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4409,7 +4409,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/test_filter_and_linestatements.py",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/test_filter_and_linestatements.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4420,7 +4420,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/test_loop_filter.py",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/test_loop_filter.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4431,7 +4431,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/translate.py",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/translate.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4442,7 +4442,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/templates",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/templates",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4453,7 +4453,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/templates/broken.html",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/templates/broken.html",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4464,7 +4464,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/examples/basic/templates/subbroken.html",
+            "path": "jinja2/Jinja2-3.0.1/examples/basic/templates/subbroken.html",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4475,7 +4475,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/requirements",
+            "path": "jinja2/Jinja2-3.0.1/requirements",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4486,7 +4486,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/requirements/dev.txt",
+            "path": "jinja2/Jinja2-3.0.1/requirements/dev.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4497,7 +4497,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/requirements/docs.txt",
+            "path": "jinja2/Jinja2-3.0.1/requirements/docs.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4508,7 +4508,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/requirements/tests.txt",
+            "path": "jinja2/Jinja2-3.0.1/requirements/tests.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4519,7 +4519,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/requirements/typing.txt",
+            "path": "jinja2/Jinja2-3.0.1/requirements/typing.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4530,7 +4530,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src",
+            "path": "jinja2/Jinja2-3.0.1/src",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4541,7 +4541,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4552,7 +4552,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/__init__.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/__init__.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4563,7 +4563,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/_identifier.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/_identifier.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4574,7 +4574,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/async_utils.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/async_utils.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4585,7 +4585,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/bccache.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/bccache.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4596,7 +4596,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/compiler.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/compiler.py",
             "type": "file",
             "licenses": [
                 {
@@ -4648,7 +4648,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/constants.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/constants.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4659,7 +4659,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/debug.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/debug.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4670,7 +4670,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/defaults.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/defaults.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4681,7 +4681,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/environment.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/environment.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4692,7 +4692,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/exceptions.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/exceptions.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4703,7 +4703,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/ext.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/ext.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4714,7 +4714,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/filters.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/filters.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4725,7 +4725,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/idtracking.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/idtracking.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4736,7 +4736,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/lexer.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/lexer.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4747,7 +4747,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/loaders.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/loaders.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4758,7 +4758,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/meta.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/meta.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4769,7 +4769,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/nativetypes.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/nativetypes.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4780,7 +4780,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/nodes.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/nodes.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4791,7 +4791,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/optimizer.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/optimizer.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4802,7 +4802,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/parser.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/parser.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4813,7 +4813,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/py.typed",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/py.typed",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4824,7 +4824,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/runtime.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/runtime.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4835,7 +4835,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/sandbox.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/sandbox.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4846,7 +4846,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/tests.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/tests.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4857,7 +4857,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/utils.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/utils.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4868,7 +4868,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/jinja2/visitor.py",
+            "path": "jinja2/Jinja2-3.0.1/src/jinja2/visitor.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4879,7 +4879,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info",
+            "path": "jinja2/Jinja2-3.0.1/src/Jinja2.egg-info",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -4890,7 +4890,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/dependency_links.txt",
+            "path": "jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/dependency_links.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4901,7 +4901,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/entry_points.txt",
+            "path": "jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/entry_points.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -4912,7 +4912,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/PKG-INFO",
+            "path": "jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/PKG-INFO",
             "type": "file",
             "licenses": [
                 {
@@ -5014,7 +5014,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/requires.txt",
+            "path": "jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/requires.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5025,7 +5025,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/SOURCES.txt",
+            "path": "jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/SOURCES.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5036,7 +5036,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/top_level.txt",
+            "path": "jinja2/Jinja2-3.0.1/src/Jinja2.egg-info/top_level.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5047,7 +5047,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests",
+            "path": "jinja2/Jinja2-3.0.1/tests",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -5058,7 +5058,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/conftest.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/conftest.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5069,7 +5069,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_api.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_api.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5080,7 +5080,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_async.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_async.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5091,7 +5091,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_async_filters.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_async_filters.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5102,7 +5102,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_bytecode_cache.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_bytecode_cache.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5113,7 +5113,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_core_tags.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_core_tags.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5124,7 +5124,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_debug.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_debug.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5135,7 +5135,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_ext.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_ext.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5146,7 +5146,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_features.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_features.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5157,7 +5157,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_filters.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_filters.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5168,7 +5168,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_idtracking.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_idtracking.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5179,7 +5179,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_imports.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_imports.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5190,7 +5190,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_inheritance.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_inheritance.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5201,7 +5201,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_lexnparse.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_lexnparse.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5212,7 +5212,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_loader.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_loader.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5223,7 +5223,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_nativetypes.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_nativetypes.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5234,7 +5234,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_regression.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_regression.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5245,7 +5245,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_runtime.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_runtime.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5256,7 +5256,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_security.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_security.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5267,7 +5267,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_tests.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_tests.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5278,7 +5278,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/test_utils.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/test_utils.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5289,7 +5289,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res",
+            "path": "jinja2/Jinja2-3.0.1/tests/res",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -5300,7 +5300,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/__init__.py",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/__init__.py",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5311,7 +5311,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/package.zip",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/package.zip",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5322,7 +5322,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -5333,7 +5333,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates/broken.html",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates/broken.html",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5344,7 +5344,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates/mojibake.txt",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates/mojibake.txt",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5355,7 +5355,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates/syntaxerror.html",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates/syntaxerror.html",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5366,7 +5366,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates/test.html",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates/test.html",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5377,7 +5377,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates/foo",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates/foo",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -5388,7 +5388,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates/foo/test.html",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates/foo/test.html",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5399,7 +5399,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates2",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates2",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -5410,7 +5410,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/jinja2/Jinja2-3.0.1/tests/res/templates2/foo",
+            "path": "jinja2/Jinja2-3.0.1/tests/res/templates2/foo",
             "type": "file",
             "licenses": [],
             "license_expressions": [],
@@ -5421,7 +5421,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/test1",
+            "path": "test1",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -5432,7 +5432,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/test1/LICENSE",
+            "path": "test1/LICENSE",
             "type": "file",
             "licenses": [
                 {
@@ -5484,7 +5484,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/test1/LICENSE.gpl2",
+            "path": "test1/LICENSE.gpl2",
             "type": "file",
             "licenses": [
                 {
@@ -5558,7 +5558,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/test1/test-1.sh",
+            "path": "test1/test-1.sh",
             "type": "file",
             "licenses": [
                 {
@@ -5622,7 +5622,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/test2",
+            "path": "test2",
             "type": "directory",
             "licenses": [],
             "license_expressions": [],
@@ -5633,7 +5633,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/test2/LICENSE",
+            "path": "test2/LICENSE",
             "type": "file",
             "licenses": [
                 {
@@ -5697,7 +5697,7 @@
             "scan_errors": []
         },
         {
-            "path": "source/test2/test-2.sh",
+            "path": "test2/test-2.sh",
             "type": "file",
             "licenses": [
                 {

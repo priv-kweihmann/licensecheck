@@ -1,6 +1,5 @@
 import json
 import logging
-import pathlib
 import re
 from typing import List
 
@@ -24,9 +23,6 @@ class ProviderScancode(Provider):
                     break
 
     def _clean_paths(self, path: str) -> str:
-        if self.format_version == '2.0.0':
-            new_path = pathlib.Path(path)
-            return pathlib.Path(*new_path.parts[1:]).as_posix()
         return path
 
     def version(self) -> str:

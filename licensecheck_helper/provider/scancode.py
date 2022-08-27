@@ -80,5 +80,4 @@ class ProviderScancode(Provider):
                     if any(re.match(x, _path) for x in self._args.ignorelicfiles):
                         continue
                     res.add(_path)
-        logging.warn(res)
         return res

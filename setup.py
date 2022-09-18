@@ -17,7 +17,7 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
     name='licensecheck-helper',
-    version='1.0.0',
+    version='1.1.0',
     author='Konrad Weihmann',
     author_email='kweihmann@outlook.com',
     description='Licensing check for different backends',

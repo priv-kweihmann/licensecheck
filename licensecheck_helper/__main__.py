@@ -41,7 +41,7 @@ def create_parser(args=None):
 def main(args=None):
     logger_setup('licensecheck_helper.debug', stream=sys.stderr)
     logger_setup('licensecheck_helper.results',
-                 format='%(message)s', stream=sys.stdout)
+                 format_='%(message)s', stream=sys.stdout)
 
     _args = create_parser(args)
     if _args.resulttype == 'lc':

@@ -1,15 +1,7 @@
-import subprocess
-
 import setuptools
 
-_long_description = 'See https://github.com/priv-kweihmann/licensecheck for documentation'
-_long_description_content_type = 'text/plain'
-try:
-    _long_description = subprocess.check_output(
-        ['pandoc', '--from', 'markdown', '--to', 'markdown', 'README.md']).decode('utf-8')
-    _long_description_content_type = 'text/markdown'
-except (subprocess.CalledProcessError, FileNotFoundError):
-    pass
+with open('README.md') as i:
+    _long_description = i.read()
 
 requirements = []
 with open('requirements.txt') as f:
@@ -22,7 +14,7 @@ setuptools.setup(
     author_email='kweihmann@outlook.com',
     description='Licensing check for different backends',
     long_description=_long_description,
-    long_description_content_type=_long_description_content_type,
+    long_description_content_type='text/plain',
     url='https://github.com/priv-kweihmann/licensecheck',
     packages=setuptools.find_packages(exclude=('tests',)),
     entry_points={

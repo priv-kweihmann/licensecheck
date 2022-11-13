@@ -1,2 +1,2 @@
-license-expression == 30.0.0
-wheel == 0.38.4
+license-expression ~= 30.0
+wheel ~= 0.38

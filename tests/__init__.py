@@ -10,10 +10,12 @@ _data_map = {
     'reuse': os.path.join(DATADIR, 'reuse', 'bad-package-1.0.txt'),
     'scancode': os.path.join(DATADIR, 'scancode', 'bad-package-1.0.json'),
     'scancode-v2': os.path.join(DATADIR, 'scancode', 'bad-package-1.0-v2.json'),
+    'scancode-v3': os.path.join(DATADIR, 'scancode', 'bad-package-1.0-v3.json'),
 }
 
 _tool_map = {
     'scancode-v2': 'scancode',
+    'scancode-v3': 'scancode',
 }
 
 

@@ -17,18 +17,18 @@ class ProviderScancode(Provider):
             '1.0.0': {
                 'version': self._version_v1,
                 'crholder': self._crholder_v1,
-                'license_files': self._license_files_v1
+                'license_files': self._license_files_v1,
             },
             '2.0.0': {
                 'version': self._version_v1,
                 'crholder': self._crholder_v2,
-                'license_files': self._license_files_v1
+                'license_files': self._license_files_v1,
             },
             '3.0.0': {
                 'version': self._version_v3,
                 'crholder': self._crholder_v2,
-                'license_files': self._license_files_v3
-            }
+                'license_files': self._license_files_v3,
+            },
         }
 
     def version(self) -> str:
@@ -155,8 +155,6 @@ class ProviderScancode(Provider):
                 for item in f.get('license_detections', []):
                     for lic in item.get('matches', []):
                         if lic.get('end_line', 0) - lic.get('start_line', 0) < self._args.licfileminlength:
-                            import logging
-                            logging.warning(f'{_path} -> {lic}')
                             continue
                         if any(re.match(x, _path) for x in self._args.ignorelicfiles):
                             continue

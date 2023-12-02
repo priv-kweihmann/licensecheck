@@ -41,7 +41,7 @@ def explode_plus_modifier(prefix, version):
     valid_mods = valid_mods[valid_mods.index(version):]
     for i in valid_mods:
         res.append(f'{prefix}{i}')
-    return f'( {" OR ".join(res)} )'
+    return f'( {" OR ".join(res)} )'  # noqa: E201, E202
 
 
 def get_source_files(args):
@@ -74,7 +74,7 @@ def evaluate(args, obj: Provider):
             raise Exception()
     except Exception as e:
         logging.getLogger('licensecheck_helper.debug').warning(
-            f'Can\'t find any license info -> {obj.version()}:{e}')
+            f'Can\'t find any license info -> {obj.version()}:{e}')  # noqa: E231
         # if no license info can be gathered assume the set one is correct
         _det = _set
 

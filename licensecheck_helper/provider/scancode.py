@@ -39,6 +39,11 @@ class ProviderScancode(Provider):
                 'crholder': self._crholder_v2,
                 'license_files': self._license_files_v3,
             },
+            '4.0.0': {
+                'version': self._version_v3,
+                'crholder': self._crholder_v2,
+                'license_files': self._license_files_v3,
+            },
         }
 
     def version(self) -> str:

@@ -14,6 +14,7 @@ _data_map = {
     'scancode-v3.1': os.path.join(DATADIR, 'scancode', 'bad-package-1.0-v3.1.json'),
     'scancode-v3.2': os.path.join(DATADIR, 'scancode', 'bad-package-1.0-v3.2.json'),
     'scancode-v4': os.path.join(DATADIR, 'scancode', 'bad-package-1.0-v4.json'),
+    'scancode-v4.1': os.path.join(DATADIR, 'scancode', 'bad-package-1.0-v4.1.json'),
 }
 
 _tool_map = {
@@ -22,6 +23,7 @@ _tool_map = {
     'scancode-v3.1': 'scancode',
     'scancode-v3.2': 'scancode',
     'scancode-v4': 'scancode',
+    'scancode-v4.1': 'scancode',
 }
 
 

@@ -74,7 +74,7 @@ def evaluate(args, obj: Provider):
             raise Exception()
     except Exception as e:
         logging.getLogger('licensecheck_helper.debug').warning(
-            f'Can\'t find any license info -> {obj.version()}:{e}')  # noqa: E231
+            f"Can't find any license info -> {obj.version()}:{e}")  # noqa: E231
         # if no license info can be gathered assume the set one is correct
         _det = _set
 
@@ -95,7 +95,7 @@ def evaluate(args, obj: Provider):
     # as we are unable to get all the possible combinations correctly
     if _set != _det:
         logging.getLogger('licensecheck_helper.results').warning(
-            f'[license] Detected license(s) {bitbake_comp_expression(" ".join(_det))}, but set is \'{args.license}\'')
+            f"[license] Detected license(s) {bitbake_comp_expression(' '.join(_det))}, but set is '{args.license}'")
 
     # Copyright holders
     _cr_bad_list = args.badcrholders.split(',')
@@ -105,13 +105,13 @@ def evaluate(args, obj: Provider):
                 continue
             if re.match(_bad, _cr):  # pragma: no cover
                 logging.getLogger('licensecheck_helper.results').warning(
-                    f'[copyright] Detected discouraged copyright holder \'{_cr}\'')
+                    f"[copyright] Detected discouraged copyright holder '{_cr}'")
 
     for _cr in obj.missingcr():
         logging.getLogger('licensecheck_helper.results').warning(
-            f'[nocopyright] \'{_cr}\' has no copyright information set')
+            f"[nocopyright] '{_cr}' has no copyright information set")
 
     for _file in obj.license_files():
         if _file not in args.licfiles:  # pragma: no cover
             logging.getLogger('licensecheck_helper.results').warning(
-                f'[missinglicfile] \'{_file}\' holds license information, but is not listed')
+                f"[missinglicfile] '{_file}' holds license information, but is not listed")

@@ -90,7 +90,7 @@ class ProviderScancode(Provider):
                             self._args, lic['spdx_license_key']))
                     if not found:
                         logging.getLogger('licensecheck_helper.results').warning(
-                            f'[noinfo] path \'{_path}\' doesn\'t provide a license info')
+                            f"[noinfo] path '{_path}' doesn't provide a license info")
         return ' AND '.join(res)
 
     def _version_v3(self) -> str:
@@ -111,7 +111,7 @@ class ProviderScancode(Provider):
                                 self._args, item))
                     if not found:
                         logging.getLogger('licensecheck_helper.results').warning(
-                            f'[noinfo] path \'{_path}\' doesn\'t provide a license info')
+                            f"[noinfo] path '{_path}' doesn't provide a license info")
         return ' AND '.join(res)
 
     def _crholder_v1(self) -> List[str]:
